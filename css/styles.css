@@ -618,7 +618,7 @@ screen and (min-width: 1158px) and (min-resolution: 192dpi) {
 .our-portfolio-list {
     max-width: 288px;
 }
-.our-portfolio-list-item {
+.our-portfolio-list-item:not(:last-child) {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0
     rgba(46, 47, 66, 0.16), 0 1px 6px 0 
     rgba(46, 47, 66, 0.08);
@@ -886,6 +886,7 @@ screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     }
     .footer-container-logo-social {
         margin: 0;
+        gap: 0;
     }
     .footer-text {
         margin: 0;
